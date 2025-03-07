@@ -29,3 +29,14 @@ class MinMaxStack:
 
     def getMax(self):
         return self.max_stack[-1] if self.max_stack else None
+
+# Example Usage
+    
+stack = MinMaxStack()
+stack.push(3)
+stack.push(5)
+stack.push(2)
+print(stack.getMin())  # 2
+print(stack.getMax())  # 5
+stack.pop()
+print(stack.getMin())  # 3

@@ -44,3 +44,12 @@ class DoublyLinkedList:
             print(curr.data, end=' ')
             curr = curr.prev
         print()
+
+#To show an example
+
+dll = DoublyLinkedList()
+dll.insert_head(1)
+dll.insert_tail(2)
+dll.insert_tail(3)
+dll.traverse_forward()  # 1 2 3
+dll.traverse_backward()  # 3 2 1ṇ
